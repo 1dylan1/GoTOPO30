@@ -25,7 +25,7 @@ import (
     "fmt"
     "log"
 
-    "github.com/yourusername/gotopo30"
+    "github.com/1dylan1/gotopo30"
 )
 
 func main() {
@@ -70,6 +70,8 @@ In the DEM, ocean areas have been masked as "no data" and have been assigned a v
 reassigns the ocean value from -9999 to 0 the land boundary portrayal will be maintained. Due to
 the nature of the raster structure of the DEM, small islands in the ocean less than approximately 1
 square kilometer will not be represented.
+
+If you're looking for a place to obtain the files, the NCAR has some available for download (https://rda.ucar.edu/datasets/d758000/dataaccess/#)
 
 ## Contributing
 I'm always open to contributions as it's possible I've missed an edge case or fundamentally misunderstood something. Feel free to open an issue or PR.
